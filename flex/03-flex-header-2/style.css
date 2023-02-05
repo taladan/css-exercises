@@ -34,6 +34,13 @@ body {
   font-style: italic;
 }
 
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 8px;
+}
+
 button {
   border: none;
   border-radius: 8px;
