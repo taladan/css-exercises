@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-/* Debugging */
-* {
-  border: 1px solid green;
-}
 
 html,
 body {
@@ -21,14 +17,10 @@ body {
 }
 
 .modal {
-  display: flex;
-  justify-content: center;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
-  flex-wrap: wrap;
-  padding: 16px;
 }
 
 .icon {
@@ -42,14 +34,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
-  align-self: flex-start;
-  margin: 10px;
 }
 
-.buttons {
-  display: flex;
-}
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -78,15 +64,4 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.header {
-  display: flex;
-  font-weight: bold;
-  font-size: large;
 }
