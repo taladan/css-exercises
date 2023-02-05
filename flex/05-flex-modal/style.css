@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+/* Debugging code */
+
+* {
+  outline: 1px solid rgb(92, 20, 2);
+}
 html,
 body {
   height: 100%;
