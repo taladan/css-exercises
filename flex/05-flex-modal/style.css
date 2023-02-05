@@ -67,7 +67,7 @@ button.cancel {
   color: royalblue;
 }
 
-.container {
+.text-container {
   display: flex;
   flex-direction: column;
 }
