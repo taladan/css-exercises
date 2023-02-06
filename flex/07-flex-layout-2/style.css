@@ -14,9 +14,9 @@ Project Requirements:
 */
 
 /* Debugging code */
-* {
+/* * {
   outline: 1px solid black;
-}
+} */
 
 .wrapper {
   /* additions below here */
@@ -94,6 +94,7 @@ The cards are arranged horizontally, but wrap to multiple lines when they run ou
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
+  gap: 32px;
 }
 
 /* Individual card */
