@@ -38,6 +38,7 @@ body {
 .center-container {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .button-box {
@@ -56,6 +57,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin: 10px;
 }
 
 .close-button {
