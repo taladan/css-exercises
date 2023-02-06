@@ -82,9 +82,25 @@ a {
   color: white;
   text-decoration: none;
 }
+
+/*
+There is 32px padding around the 'cards' section.
+The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
+*/
+
+/* Contains all cards */
+.cards {
+  /* additions below here */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+/* Individual card */
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
   /* additions below here */
+  flex: 1;
 }
