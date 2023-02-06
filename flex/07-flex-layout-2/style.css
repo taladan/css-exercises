@@ -14,14 +14,14 @@ Project Requirements:
 */
 
 /* Debugging code */
-/* * {
+* {
   outline: 1px solid black;
-} */
+}
 
 .wrapper {
   /* additions below here */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 body {
