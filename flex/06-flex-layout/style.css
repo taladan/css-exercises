@@ -39,3 +39,11 @@ a {
   justify-content: space-between;
   background: #eee;
 }
+
+.header > .left-links,
+.header > .right-links,
+.left-links,
+.right-links {
+  display: flex;
+  justify-content: space-between;
+}
