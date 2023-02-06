@@ -36,6 +36,8 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 32px;
+  gap: 16px;
 }
 
 ul {
