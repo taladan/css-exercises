@@ -72,6 +72,11 @@ ul {
   padding: 0;
 }
 
+li {
+  /* additions below here */
+  padding: 10px;
+}
+
 a {
   /* additions below here */
   color: white;
