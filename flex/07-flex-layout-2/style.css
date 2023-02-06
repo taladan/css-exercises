@@ -14,9 +14,9 @@ Project Requirements:
 */
 
 /* Debugging code */
-* {
+/* * {
   outline: 1px solid black;
-}
+} */
 
 .wrapper {
   /* additions below here */
@@ -42,11 +42,6 @@ body {
   align-content: center;
 }
 
-/* 
-The footer is pushed to the bottom of the screen (the footer may go below the bottom of the screen if the content of the 'cards' section overflows and/or if your screen is shorter).
-The footer text is centered horizontally and vertically. 
-*/
-
 .footer {
   height: 72px;
   background: #eee;
@@ -57,12 +52,29 @@ The footer text is centered horizontally and vertically.
   align-items: center;
 }
 
+/* 
+The sidebar and cards take up all available space above the footer.
+The sidebar is 300px wide (and it doesn't shrink).
+The sidebar links are size 24px, are white, and do not have the underline text decoration.
+The sidebar has 16px padding.
+*/
 .sidebar {
   width: 300px;
   background: royalblue;
   /* additions below here */
+  flex: 1 0;
+  font-size: 24px;
+  padding: 16px;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
