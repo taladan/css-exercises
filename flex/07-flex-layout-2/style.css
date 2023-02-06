@@ -57,14 +57,15 @@ body {
   width: 300px;
   background: royalblue;
   /* additions below here */
-  flex: 1 0;
+  flex-shrink: 0;
   font-size: 24px;
-  padding: 16px;
 }
 
 ul {
   /* additions below here */
+  flex: 1;
   list-style: none;
+  padding: 16px;
 }
 
 a {
