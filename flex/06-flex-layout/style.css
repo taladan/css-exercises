@@ -27,6 +27,7 @@ input {
 }
 
 ul {
+  list-style: none;
 }
 
 a {
