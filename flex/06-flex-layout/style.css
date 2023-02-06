@@ -34,14 +34,17 @@ a {
   text-decoration: none;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
   background: #eee;
 }
 
-.header > .left-links,
-.header > .right-links,
 .left-links,
 .right-links {
   display: flex;
