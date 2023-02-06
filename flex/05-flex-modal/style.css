@@ -34,6 +34,10 @@ body {
   flex-direction: column;
 }
 
+.button-box {
+  display: flex;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
